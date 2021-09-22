@@ -4,3 +4,6 @@ Each image is made up of pixels. For a color image each pixel is made up of Red,
 
 
 In Cascade classifiers, sliding windows having a combination of white and black colors are passed over the images. Final pixel for describing the features is calculated using the formaula (Sum of White Pixel -Sum of Black Pixel). Images are represented by matrix. Each images has a X and Y axis. So , in the matrix the positions of the faces in the images are displayed. For example if a face in an image is represented as array[677,72,68,68], it means that the face in the image is at position (677, 72) where 677 represents the x-axis and 72 represents the y-axis. And the size of the face detected in 68 by 68.
+
+![image](https://user-images.githubusercontent.com/68335914/134294047-ab5883db-c6db-4746-bda2-1eb3f359c70c.png)
+
